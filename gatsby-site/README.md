@@ -31,6 +31,11 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     cd my-default-starter/
     gatsby develop
     ```
+    Build in master branch using gh-pages
+
+     ```shell
+     npm run deploy
+     ```
 
 1.  **Open the source code and start editing!**
 
