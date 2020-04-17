@@ -1,35 +1,62 @@
 @import url("https://use.typekit.net/kvc0tbm.css");
 
-body {
-    background-color: #ffffff;
-    font-family: "Source Sans Pro", sans-serif;
-    box-sizing: border-box;
-    max-width: 100vw;
-  }
-  
-  .container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow: hidden;
-    font-family: 'Noto Sans', sans-serif;
-  }
-  
-  .content {
-    flex-grow: 1;
-    padding: 5em 2em 2em 2em;
-    margin: 0 auto;
-    max-width: 80%;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'futura-pt', sans-serif;
-  }
+/* Coolors Exported Palette - coolors.co/f2e4d2-a9c19d-1c0135-ffcc33-ed5656 */
+/* HSL 
+$color1: hsla(34%, 55%, 89%, 1);
+$color2: hsla(100%, 23%, 69%, 1);
+$color3: hsla(271%, 96%, 11%, 1);
+$color4: hsla(45%, 100%, 60%, 1);
+$color5: hsla(0%, 81%, 63%, 1);
+/* RGB 
+$color1: rgba(242, 228, 210, 1);
+$color2: rgba(169, 193, 157, 1);
+$color3: rgba(28, 1, 53, 1);
+$color4: rgba(255, 204, 51, 1);
+$color5: rgba(237, 86, 86, 1);*/
 
-  @media only screen and (min-width: 1000px) {
-    .content {
-      padding: 2em 3em 2em 3em;
-    }
+:root {
+  --light: rgba(242, 228, 210, 1);
+  --green: rgba(169, 193, 157, 1);
+  --purple: rgba(28, 1, 53, 1);
+  --yellow: rgba(255, 204, 51, 1);
+  --coral: rgba(237, 86, 86, 1);
+}
+
+body {
+  background-color: var(--light);
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  max-width: 100vw;
+  color: var(--purple);
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 5em 2em 2em 2em;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "futura-pt", sans-serif;
+}
+
+@media only screen and (min-width: 1000px) {
+  .content {
+    padding: 2em 3em 2em 3em;
   }
-  
+}

@@ -14,7 +14,7 @@ const Menu = ({ open }) => {
         About me
         </Link>
         <Link
-        to="/projects"
+        to="/projects/"
       >
         Projects
       </Link>

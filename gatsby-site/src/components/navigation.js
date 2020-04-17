@@ -12,7 +12,7 @@ const Navigation = props => {
     justify-content: flex-end;
     position: sticky;
     top: 0;
-    background: white;
+    background: transparent;
     padding: 1em 2em 0em 1em;
     z-index: 99999;
 
@@ -21,15 +21,18 @@ const Navigation = props => {
     }
   `
   const StyledLink = styled(Link)`
-    color: #000000;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    @import url("https://use.typekit.net/kvc0tbm.css");
+    color: rgba(28, 1, 53, 1);
+    font-family: "futura-pt", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
     margin: 1em;
     position: relative;
     text-decoration: none;
 
+
     &:hover {
-        color: #e54c14;
+        color: rgba(237, 86, 86, 1);
         transition: color 0.4s ease;
         -webkit-transition: color 0.4s ease;
       }
@@ -40,43 +43,46 @@ const Navigation = props => {
         height: 3px;
         display: block;
         right: 0;
-        background: #fff;
+        background: rgba(28, 1, 53, 1);
         transition: width 0.4s ease;
         -webkit-transition: width 0.4s ease;
       }
       &:hover:after {
         width: 100%;
         left: 0;
-        background: #e54c14;
+        background: rgba(237, 86, 86, 1);
       } 
   `
-
   return (
     <Nav>
-      <StyledLink
+      <Link
         to="/"
+        className={navigationStyles.navLink}
         activeClassName={navigationStyles.active}
       >
         Home
-      </StyledLink>
-      <StyledLink
+      </Link>
+      <Link
         to="/work/"
+        className={navigationStyles.navLink}
         activeClassName={navigationStyles.active}
       >
         About me
-      </StyledLink>
-      <StyledLink
-        to="/behind-the-scenes/"
+      </Link>
+      <Link
+        to="/projects/"
+        className={navigationStyles.navLink}
         activeClassName={navigationStyles.active}
       >
         Projects
-      </StyledLink>
-      <StyledLink
+      </Link>
+      <Link
         to="/contact/"
+        className={navigationStyles.navLink}
         activeClassName={navigationStyles.active}
       >
         Contact
-      </StyledLink>
+      </Link>
     </Nav>
   )
 }
