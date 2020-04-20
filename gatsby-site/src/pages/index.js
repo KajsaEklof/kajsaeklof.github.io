@@ -1,8 +1,14 @@
-import React, { useState, useRef, useEffect } from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import React, { useState, useRef, useEffect } from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Image from "../components/image";
+import SEO from "../components/seo";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+
+
+library.add(fab, faCheckSquare, faCoffee)
 
 const IndexPage = () => (
   <Layout>

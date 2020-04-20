@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { device } from "../componentsStyles/device"
 
 export const StyledMenu = styled.nav`
-  background: rgba(169, 193, 157, 1);
+  background: rgba(242, 228, 210, 1);
   display: flex;
   display: ${({ open }) => (open ? "flex" : "none")};
   flex-direction: column;
@@ -24,7 +24,7 @@ export const StyledMenu = styled.nav`
   }
 
   a {
-    color: #303030;
+    color: rgba(237, 86, 86, 1);
     display: block;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 1.5em;
@@ -33,8 +33,8 @@ export const StyledMenu = styled.nav`
     position: relative;
     text-decoration: none;
     
-    &:after {
-      background: #e54c14;
+    &:hover:after {
+      background: rgba(28, 1, 53, 1);
       content: "";
       display: block;
       height: 3px;
@@ -45,7 +45,11 @@ export const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: #e54c14;
+      color: rgba(28, 1, 53, 1);
     }
   }
-`
+  .active {
+    color: var(--coral);
+  }
+
+  `

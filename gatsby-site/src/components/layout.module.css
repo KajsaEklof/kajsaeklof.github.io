@@ -28,6 +28,7 @@ body {
   box-sizing: border-box;
   max-width: 100vw;
   color: var(--purple);
+  font-size: 100%;
 }
 
 .container {
@@ -53,6 +54,22 @@ h4,
 h5,
 h6 {
   font-family: "futura-pt", sans-serif;
+}
+
+p {
+  font-size: 1.125em;
+}
+
+.footertext {
+  font-size: 1em;
+  padding-top: 1em;
+}
+
+.socialicons {
+  display: flex;
+ justify-content: space-evenly;
+ width: 30%;
+ margin: 0 auto;
 }
 
 @media only screen and (min-width: 1000px) {
