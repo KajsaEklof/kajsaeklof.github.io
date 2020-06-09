@@ -47,17 +47,14 @@ const Layout = props => {
       <main className={layoutStyles.content}>{props.children}</main>
       <Footer>
         <div className={layoutStyles.socialicons}>
-          <a href="" target="_blank" className={layoutStyles.socialicon}>
+          <a href="https://github.com/KajsaEklof" target="_blank" className={layoutStyles.socialicon}>
             <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
           </a>
-          <a href="" target="_blank" className={layoutStyles.socialicon}>
+          <a href="https://www.linkedin.com/in/kajsa-eklof/" target="_blank" className={layoutStyles.socialicon}>
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="2x" />
           </a>
-          <a href="" target="_blank" className={layoutStyles.socialicon}>
+          <a href="https://twitter.com/kajsa_eklof" target="_blank" className={layoutStyles.socialicon}>
             <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
-          </a>
-          <a href="" target="_blank" className={layoutStyles.socialicon}>
-            <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
           </a>
         </div>
         <p className={layoutStyles.footertext}>

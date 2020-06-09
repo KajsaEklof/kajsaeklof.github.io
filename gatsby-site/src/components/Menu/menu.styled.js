@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { device } from "../componentsStyles/device"
 
 export const StyledMenu = styled.nav`
-  background: rgba(242, 228, 210, 1);
+  background: rgb(251, 244, 235, 1);
   display: flex;
   display: ${({ open }) => (open ? "flex" : "none")};
   flex-direction: column;
