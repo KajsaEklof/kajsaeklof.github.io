@@ -44,9 +44,10 @@ body {
 
 .content {
   flex-grow: 1;
-  padding: 5em 2em 2em 2em;
+  padding: 7em 2em 2em 2em;
   margin: 0 auto;
   max-width: 80%;
+  min-width: 50%;
 }
 
 h1,
@@ -60,6 +61,14 @@ h6 {
 
 p {
   font-size: 1.125em;
+}
+
+
+
+a:hover{
+  color: var(--coral);
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
 }
 
 .footertext {

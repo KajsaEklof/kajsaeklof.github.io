@@ -8,7 +8,7 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: flex-start;
   min-height: 100vh;
-  padding-top: 4em;
+  padding-top: 5em;
   position: absolute;
   right: 0;
   text-align: left;
@@ -24,7 +24,7 @@ export const StyledMenu = styled.nav`
   }
 
   a {
-    color: rgba(237, 86, 86, 1);
+    color: var(--purple);
     display: block;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 1.5em;
@@ -34,7 +34,7 @@ export const StyledMenu = styled.nav`
     text-decoration: none;
     
     &:hover:after {
-      background: rgba(28, 1, 53, 1);
+      background: var(--coral);
       content: "";
       display: block;
       height: 3px;
@@ -45,11 +45,12 @@ export const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: rgba(28, 1, 53, 1);
+      color: var(--coral);
     }
   }
   .active {
     color: var(--coral);
+    border-bottom: 3px var(--coral) solid;
   }
 
   `

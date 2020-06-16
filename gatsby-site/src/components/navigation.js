@@ -62,13 +62,7 @@ const Navigation = props => {
       >
         Home
       </Link>
-      <Link
-        to="/work/"
-        className={navigationStyles.navLink}
-        activeClassName={navigationStyles.active}
-      >
-        About me
-      </Link>
+
       <Link
         to="/projects/"
         className={navigationStyles.navLink}

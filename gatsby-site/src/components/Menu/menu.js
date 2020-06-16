@@ -6,16 +6,13 @@ import { Link } from "gatsby"
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <Link to="/" >
+      <Link to="/" activeClassName="active">
         Home
       </Link>
-      <Link to="/about" >
-        About me
-      </Link>
-      <Link to="/projects/" >
+      <Link to="/projects/" activeClassName="active" >
         Projects
       </Link>
-      <Link to="/contact">
+      <Link to="/contact" activeClassName="active">
         Contact
       </Link>
     </StyledMenu>
