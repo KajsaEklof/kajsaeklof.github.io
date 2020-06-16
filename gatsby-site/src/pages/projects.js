@@ -11,7 +11,7 @@ const Projects = () => (
   <SEO title="Projects" />
   <h1>Projects</h1>
   <p>This is where I'll post all the amazing things I'm making.</p>
-  <img src={Illustration}/>
+  <img src={Illustration} alt="Illustration of a women sitting at a table coding on a laptop."/>
 
   </Layout>
 )

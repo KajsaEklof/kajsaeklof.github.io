@@ -34,7 +34,7 @@ const Contact = props => {
     <p><Alink href="https://www.linkedin.com/in/kajsa-eklof/" target="_blank" >LinkedIn</Alink></p>
     <p><Alink href="https://github.com/KajsaEklof" target="_blank">GitHub</Alink></p>
 
-    <img src={Image}/>
+    <img src={Image} alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"/>
 
 
   </Layout>

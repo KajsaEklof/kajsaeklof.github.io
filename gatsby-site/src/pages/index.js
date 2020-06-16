@@ -26,7 +26,7 @@ const IndexPage = () => {
 
       <h1>Hello there</h1>
 
-      <Photo src={Image} />
+      <Photo src={Image} alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"/>
       <p>
         Hello, I’m Kajsa and I’m a Junior Front-End Developer and Information
         Architect. I have recently completed a bachelor’s degree at the
