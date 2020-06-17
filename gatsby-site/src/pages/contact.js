@@ -28,7 +28,6 @@ const Contact = props => {
     <SEO title="Contact" />
 
     <h1>Contact me</h1>
-    <p>Ways to get in touch with me:</p>
     
     <p><Alink href="mailto:hello@kajsaeklof.com">hello@kajsaeklof.com</Alink></p>
     <p><Alink href="https://www.linkedin.com/in/kajsa-eklof/" target="_blank" >LinkedIn</Alink></p>

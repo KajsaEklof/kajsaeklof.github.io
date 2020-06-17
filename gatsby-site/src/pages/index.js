@@ -17,42 +17,57 @@ const IndexPage = () => {
     width: 60vw;
 
     @media ${device.desktop} {
-      width: 40vw;
+      width: 30vw;
+      text-align: center;
     }
   `
+
+  const Container = styled.div`
+    display: flex;
+    justify-content: center;
+  `
+
   return (
     <Layout>
       <SEO title="Home" />
 
-      <h1>Hello there</h1>
-
-      <Photo src={Image} alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"/>
+      <h1>Hello there!</h1>
+    <Container>
+      <Photo
+        src={Image}
+        alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"
+      />
+      </Container>
       <p>
-        Hello, I’m Kajsa and I’m a Junior Front-End Developer and Information
-        Architect. I have recently completed a bachelor’s degree at the
-        University of Borås in Information Architecture with a specialisation in
-        Front-End Web Development and I’m now looking for a position as a
-        Front-End Developer.</p>
+        I’m Kajsa and I’m a Junior Front-End Developer and Information
+        Architect. I’ve recently completed a bachelor’s degree at the University
+        of Borås in Sweden in Information Architecture with a specialisation in
+        Front-End Web Development. Now I’m looking for a position as a Front-End
+        Developer.
+      </p>
       <p>
-        For the last three years I’ve been combining working part time while
-        studying as a distance education student. It was during my recent
-        studies I wrote my first lines of code, and I have been hooked ever
-        since my first Hello World. I am always excited to learn new things and
-        have plenty of experience of working in teams, both on-site and remote.
+        For the last three years I’ve combined studying as a distance education
+        student with working part time on the Digital Team at a publishing and
+        events company. It was during my studies I wrote my first lines of code,
+        and I’ve been hooked ever since my first Hello World. I’m always excited
+        to learn new things and have plenty of experience of working in teams,
+        both on-site and remote.
       </p>
       <p>
         I’m originally from Sweden but have been living and working in the UK
         for the last 10+ years.
       </p>
-      <p><strong>Tech I enjoy</strong>: HTML5, CSS, JavaScript (ES6), React and Gatsby. </p>
       <p>
-        This is my personal website that I'm building using React and{" "}
-        <a href="https://www.gatsbyjs.org/" target="_blank">
-          Gatsby
-        </a>.
+        <strong>Tech I enjoy</strong>: HTML5, CSS, JavaScript (ES6), React and
+        Gatsby.{" "}
+      </p>
+      <p>
+        This is my personal website that I'm building using React and <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby
+        </a>
+        .
       </p>
 
-      <p><Link to="/contact">Contact me</Link></p>
+      <h2><Link to="/contact">Contact me</Link></h2>
     </Layout>
   )
 }
