@@ -15,9 +15,11 @@ const IndexPage = () => {
   const Photo = styled.img`
     border-radius: 50%;
     width: 60vw;
+    height: 60vw;
 
     @media ${device.desktop} {
       width: 30vw;
+      height: 30vw;
       text-align: center;
     }
   `
