@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
@@ -16,14 +9,21 @@ import Menu from "./Menu"
 import Burger from "./Burger"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import styled from "styled-components"
+import Img from "gatsby-image"
+import Logo from "../images/kajsaekloflogo_background.png"
 
 const Layout = props => {
   const [open, setOpen] = useState(false)
   const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
+    query Image {
+      file(relativePath: { eq: "kajsaekloflogo_background.png" }) {
+        childImageSharp {
+          fixed {
+            ...GatsbyImageSharpFixed
+          }
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }
@@ -36,14 +36,20 @@ const Layout = props => {
     justify-items: center;
     margin: 1em 1em 2em 1em;
   `
-
   return (
     <div className={layoutStyles.container}>
-      <div>
-        <Burger open={open} setOpen={setOpen} />
-        <Menu open={open} setOpen={setOpen} />
-      </div>
+      {/* <div>
+         <Burger open={open} setOpen={setOpen} />
+         <Menu open={open} setOpen={setOpen} />
+      </div>*/}
+      <div className={layoutStyles.containerFlex}>
+      <img
+      className={layoutStyles.logo}
+      src={Logo}  
+        alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"
+      />
       <Navigation />
+      </div>
       <main className={layoutStyles.content}>{props.children}</main>
       <Footer>
         {/*<div className={layoutStyles.socialicons}>
@@ -62,8 +68,7 @@ const Layout = props => {
   )
 }
 
+export default Layout
 // Layout.propTypes = {
 //  children: PropTypes.node.isRequired,
 // }
-
-export default Layout

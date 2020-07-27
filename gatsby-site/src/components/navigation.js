@@ -15,10 +15,6 @@ const Navigation = props => {
     background: transparent;
     padding: 1em 2em 0em 1em;
     z-index: 99999;
-
-    @media ${device.mobile} {
-      display:none;
-    }
   `
   const StyledLink = styled(Link)`
     @import url("https://use.typekit.net/kvc0tbm.css");

@@ -8,6 +8,8 @@ import { device } from "../components/componentsStyles/device"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons"
+// Load Roboto Mono typeface
+require('typeface-roboto-mono')
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -34,12 +36,6 @@ const IndexPage = () => {
       <SEO title="Home" />
 
       <h1>Hello there!</h1>
-    <Container>
-      <Photo
-        src={Image}
-        alt="Portrait of Kajsa Eklof who is sitting at a table with her MacBook woring facing the camera"
-      />
-      </Container>
       <p>
         I’m Kajsa and I’m a Junior Front-End Developer and Information
         Architect. I’ve recently completed a bachelor’s degree at the University
