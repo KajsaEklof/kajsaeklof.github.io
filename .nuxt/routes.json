@@ -7,6 +7,20 @@
     "_name": "_130b0281"
   },
   {
+    "name": "projects",
+    "path": "/projects",
+    "component": "/Users/kajsaeklof/myRepos/nuxt-site/pages/projects.vue",
+    "chunkName": "pages/projects",
+    "_name": "_3dd63b69"
+  },
+  {
+    "name": "TechJourney",
+    "path": "/TechJourney",
+    "component": "/Users/kajsaeklof/myRepos/nuxt-site/pages/TechJourney.vue",
+    "chunkName": "pages/TechJourney",
+    "_name": "_f7f715ea"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/kajsaeklof/myRepos/nuxt-site/pages/index.vue",
