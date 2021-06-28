@@ -1,0 +1,16 @@
+[
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/kajsaeklof/myRepos/nuxt-site/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_130b0281"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/kajsaeklof/myRepos/nuxt-site/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_70b7bc73"
+  }
+]
