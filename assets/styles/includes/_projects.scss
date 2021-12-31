@@ -1,0 +1,17 @@
+#projects {
+  // padding: 4em 0;
+
+  .wrapper {
+    flex-direction: row-reverse;
+
+    .card {
+      width: 50%;
+    }
+
+    img {
+      width: 30%;
+      position: relative;
+      box-shadow: 17px 17px 0 0 $sand, 17px 17px 0 6px $purple;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 @import "./theme.scss";
 @import "./includes/general.scss";
-
-body {
-  background-color: $sand;
-}
+@import "./includes/default-layout.scss";
+@import "./includes/tactile-button.scss";
+@import "./includes/contact.scss";
+@import "./includes/navigation.scss";
+@import "./includes/projects.scss";

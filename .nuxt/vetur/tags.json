@@ -1,5 +1,23 @@
 {
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "TheAboutMe": {
+    "description": "Auto imported from components/TheAboutMe.vue"
+  },
+  "TheContact": {
+    "description": "Auto imported from components/TheContact.vue"
+  },
+  "TheNavigation": {
+    "description": "Auto imported from components/TheNavigation.vue"
+  },
+  "TheProjects": {
+    "description": "Auto imported from components/TheProjects.vue"
+  },
+  "TheScrollToTop": {
+    "description": "Auto imported from components/TheScrollToTop.vue"
+  },
+  "TheTechJourney": {
+    "description": "Auto imported from components/TheTechJourney.vue"
   }
 }

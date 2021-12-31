@@ -1,0 +1,116 @@
+.navigation {
+  // padding: 1em;
+  display: flex;
+  // flex-wrap: wrap;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // align-items: flex-end;
+  // min-width: fit-content;
+  justify-content: space-between;
+
+  .pushable-logo {
+    flex-shrink: 1;
+    display: block;
+    background: $yellow;
+    border-radius: 100%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+
+    .front {
+      display: block;
+      transform: translateY(-6px);
+      will-change: transform;
+      transition: transform 200ms;
+      img {
+        width: 9rem;
+        margin: 0;
+      }
+    }
+
+    &.nuxt-link-exact-active {
+      .front {
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  nav {
+    // flex-shrink: 0;
+    ul {
+      display: flex;
+      // flex-direction: column;
+      // flex-wrap: wrap;
+      list-style: none;
+      // justify-content: space-between;
+
+      li {
+        margin: 1em;
+
+        &:first-child {
+          .pushable {
+            .front {
+              .label {
+                transform: rotate(1deg);
+              }
+            }
+          }
+        }
+        &:last-child {
+          .pushable {
+            .front {
+              .label {
+                transform: rotate(-1.5deg);
+              }
+            }
+          }
+        }
+
+        &.logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      a {
+        position: relative;
+        text-decoration: none;
+        // font-size: 1.5em;
+
+        // &::after {
+        //   content: "";
+        //   position: absolute;
+        //   width: 0;
+        //   height: 3px;
+        //   display: block;
+        //   transition: width 0.4s ease;
+        // }
+
+        // &:hover::after {
+        //   width: 100%;
+        //   left: 0;
+        //   background-color: $coral;
+        // }
+      }
+    }
+  }
+
+  .nav-link {
+    margin: 0.5em;
+  }
+
+  .nuxt-link-exact-active:not(.logo) {
+    color: $coral;
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   height: 3px;
+    //   display: block;
+    //   width: 100%;
+    //   left: 0;
+    //   background-color: $coral;
+    // }
+  }
+}
