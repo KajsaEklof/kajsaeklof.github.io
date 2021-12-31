@@ -17,7 +17,7 @@
     <NuxtLink to="/" class="pushable-logo">
       <div class="front">
         <img
-          src="~/assets/images/kajsaekloflogo.png"
+          src="~/static/images/kajsaekloflogo.png"
           class="nav-link"
           alt="Illustration of the letter k in three layers of red, yellow and purple with a sage green dot next to it."
         />

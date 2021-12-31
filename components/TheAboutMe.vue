@@ -36,7 +36,7 @@
           <li>CSS / SCSS</li>
         </ul>
       </div>
-      <img src="~/assets/images/kajsa.jpg" />
+      <img src="~/static/images/kajsa.jpg" />
     </div>
   </section>
 </template>

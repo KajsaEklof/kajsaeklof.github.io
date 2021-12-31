@@ -15,7 +15,7 @@
           <li>Chew toys</li>
         </ul>
       </div>
-      <img src="~/assets/images/merlin.jpg" />
+      <img src="~/static/images/merlin.jpg" />
     </div>
   </section>
 </template>
