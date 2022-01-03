@@ -2,8 +2,7 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/kajsaeklof/myRepos/portfolio/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_20c9cfea"
+    "component": "/Users/kajsaeklof/myRepos/new-nuxt-portfolio/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]
