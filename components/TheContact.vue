@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
-    <h2 class="label center">Contact</h2>
-    <p>Say hello</p>
+    <h2>contact</h2>
+    <p>Why not say hello?</p>
     <ul class="contact-list">
       <li>
         <a

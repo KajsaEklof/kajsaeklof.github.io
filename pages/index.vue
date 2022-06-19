@@ -2,7 +2,7 @@
   <div>
     <the-about-me />
     <!-- <the-tech-journey /> -->
-    <the-projects />
+    <!-- <the-projects /> -->
     <the-contact />
   </div>
 </template>

@@ -35,6 +35,7 @@ export default {
     "@nuxt/typescript-build",
     "@nuxtjs/device",
     "@nuxtjs/fontawesome",
+    "@nuxtjs/google-fonts",
   ],
 
   router: {
@@ -72,6 +73,12 @@ export default {
 
   fontawsome: {
     icons: {},
+  },
+  googleFonts: {
+    families: {
+      Lato: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      "Work+Sans": [100, 200, 300, 400, 700, 900],
+    },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
