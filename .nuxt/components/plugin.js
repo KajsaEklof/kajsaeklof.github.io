@@ -7,7 +7,6 @@ const components = {
   TheContact: () => import('../../components/TheContact.vue' /* webpackChunkName: "components/the-contact" */).then(c => wrapFunctional(c.default || c)),
   TheNavigation: () => import('../../components/TheNavigation.vue' /* webpackChunkName: "components/the-navigation" */).then(c => wrapFunctional(c.default || c)),
   TheProjects: () => import('../../components/TheProjects.vue' /* webpackChunkName: "components/the-projects" */).then(c => wrapFunctional(c.default || c)),
-  TheScrollToTop: () => import('../../components/TheScrollToTop.vue' /* webpackChunkName: "components/the-scroll-to-top" */).then(c => wrapFunctional(c.default || c)),
   TheTechJourney: () => import('../../components/TheTechJourney.vue' /* webpackChunkName: "components/the-tech-journey" */).then(c => wrapFunctional(c.default || c))
 }
 

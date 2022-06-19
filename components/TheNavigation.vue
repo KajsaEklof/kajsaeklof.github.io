@@ -1,50 +1,26 @@
 <template>
   <div class="navigation">
-    <!-- <NuxtLink to="/" class="pushable-logo">
-        <div class="front">
-          <img
-            src="~/assets/images/kajsaekloflogo.png"
-            class="nav-link"
-            alt="Illustration of the letter k in three layers of red, yellow and purple with a sage green dot next to it."
-          />
-        </div>
-      </NuxtLink> -->
-    <!-- <div> -->
-    <!-- <div>
-        <font-awesome-icon :icon="['fas', 'volume-up']" />
-        <font-awesome-icon :icon="['far', 'lightbulb']" />
-      </div> -->
-    <NuxtLink to="/" class="pushable-logo">
-      <div class="front">
-        <img
-          src="~/static/images/kajsaekloflogo.png"
-          class="nav-link"
-          alt="Illustration of the letter k in three layers of red, yellow and purple with a sage green dot next to it."
-        />
-      </div>
+    <NuxtLink to="/">
+      kajsa eklöf
+      <!-- <img
+        src="~/static/images/kajsaekloflogo.png"
+        id="logo"
+        class="nav-link"
+        alt="Illustration of the letter k in three layers of red, yellow and purple with a sage green dot next to it."
+        width="100px"
+        height="100px"
+      /> -->
     </NuxtLink>
     <nav>
       <ul>
         <li>
-          <NuxtLink to="/#projects" class="pushable">
-            <span class="front">
-              <span class="label">Projects</span>
-            </span>
-          </NuxtLink>
+          <NuxtLink to="/#tech">tech</NuxtLink>
         </li>
         <!-- <li>
-          <NuxtLink to="/#tech-journey" class="pushable">
-            <span class="front">
-              <span class="label">Tech Journey</span>
-            </span>
-          </NuxtLink>
+          <NuxtLink to="/#projects">projects</NuxtLink>
         </li> -->
         <li>
-          <NuxtLink to="/#contact" class="pushable">
-            <span class="front">
-              <span class="label">Contact</span>
-            </span>
-          </NuxtLink>
+          <NuxtLink to="/#contact">contact</NuxtLink>
         </li>
       </ul>
     </nav>

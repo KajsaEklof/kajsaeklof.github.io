@@ -5,7 +5,6 @@
     <main class="content">
       <Nuxt />
     </main>
-    <the-scroll-to-top />
   </div>
 </template>
 

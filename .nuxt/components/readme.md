@@ -11,5 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<TheContact>` | `<the-contact>` (components/TheContact.vue)
 - `<TheNavigation>` | `<the-navigation>` (components/TheNavigation.vue)
 - `<TheProjects>` | `<the-projects>` (components/TheProjects.vue)
-- `<TheScrollToTop>` | `<the-scroll-to-top>` (components/TheScrollToTop.vue)
 - `<TheTechJourney>` | `<the-tech-journey>` (components/TheTechJourney.vue)
