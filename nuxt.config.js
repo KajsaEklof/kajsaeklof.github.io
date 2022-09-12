@@ -70,6 +70,7 @@ export default {
 
   fontawsome: {
     icons: {},
+    autoAddCss: false,
   },
   googleFonts: {
     families: {
