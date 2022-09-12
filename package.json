@@ -12,7 +12,8 @@
     "deploy": "nuxt build && nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
     "@nuxt/content": "^1",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
