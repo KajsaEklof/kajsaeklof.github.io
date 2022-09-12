@@ -10,6 +10,8 @@ import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 import '../assets/styles/main.scss'
 
+import '../node_modules/prism-themes/themes/prism-material-oceanic.css'
+
 import '../assets/css/fonts.css'
 
 import _2d21d098 from '../layouts/blog.vue'

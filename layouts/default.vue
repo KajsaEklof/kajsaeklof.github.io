@@ -1,6 +1,5 @@
 <template>
   <div class="layout-wrapper">
-    <maintenance-banner />
     <the-navigation />
     <main class="content">
       <Nuxt />
@@ -15,9 +14,5 @@ import { faLightbulb } from "@fortawesome/free-regular-svg-icons";
 
 library.add(faVolumeUp, faLightbulb);
 
-export default {
-  mounted() {
-    console.log(this.$device);
-  },
-};
+export default {};
 </script>

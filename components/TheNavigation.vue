@@ -16,6 +16,9 @@
         <li>
           <NuxtLink to="/#tech">tech</NuxtLink>
         </li>
+        <li>
+          <NuxtLink to="/notes">notes</NuxtLink>
+        </li>
         <!-- <li>
           <NuxtLink to="/#projects">projects</NuxtLink>
         </li> -->

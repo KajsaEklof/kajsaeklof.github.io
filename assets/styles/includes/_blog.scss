@@ -1,0 +1,28 @@
+.blog {
+  ul {
+    list-style: none;
+  }
+  .post {
+    &.card {
+      display: block;
+      margin-top: 2em;
+      padding: 1.5em;
+      border-radius: 8px;
+      box-shadow: 2px 2px 5px 0px grey;
+      text-decoration: none;
+      color: #303030;
+
+      .title {
+        color: $blue;
+      }
+
+      &:hover {
+        box-shadow: 3px 3px 10px 0px grey;
+      }
+
+      .updated-at {
+        font-size: 0.8em;
+      }
+    }
+  }
+}

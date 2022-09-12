@@ -81,7 +81,7 @@ p {
     }
   }
 
-  a {
+  a:not(.post.card) {
     color: $blue;
     // font-weight: 700;
     text-decoration: none;
@@ -129,4 +129,18 @@ p {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+.nuxt-content-highlight {
+  position: relative;
+}
+.nuxt-content-highlight .filename {
+  position: absolute;
+  right: 0;
+  color: grey;
+  z-index: 10;
+  margin-right: 8px;
+  margin-top: 4px;
+
+  // @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
 }

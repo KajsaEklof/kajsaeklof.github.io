@@ -60,7 +60,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import Component from "vue-class-component";
 import { library } from "@fortawesome/fontawesome-svg-core";
