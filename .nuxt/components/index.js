@@ -1,9 +1,9 @@
-export const NuxtLogo = () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
-export const TheAboutMe = () => import('../../components/TheAboutMe.vue' /* webpackChunkName: "components/the-about-me" */).then(c => wrapFunctional(c.default || c))
-export const TheContact = () => import('../../components/TheContact.vue' /* webpackChunkName: "components/the-contact" */).then(c => wrapFunctional(c.default || c))
-export const TheNavigation = () => import('../../components/TheNavigation.vue' /* webpackChunkName: "components/the-navigation" */).then(c => wrapFunctional(c.default || c))
-export const TheProjects = () => import('../../components/TheProjects.vue' /* webpackChunkName: "components/the-projects" */).then(c => wrapFunctional(c.default || c))
-export const TheTechJourney = () => import('../../components/TheTechJourney.vue' /* webpackChunkName: "components/the-tech-journey" */).then(c => wrapFunctional(c.default || c))
+export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
+export { default as TheAboutMe } from '../../components/TheAboutMe.vue'
+export { default as TheContact } from '../../components/TheContact.vue'
+export { default as TheNavigation } from '../../components/TheNavigation.vue'
+export { default as TheProjects } from '../../components/TheProjects.vue'
+export { default as TheTechJourney } from '../../components/TheTechJourney.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

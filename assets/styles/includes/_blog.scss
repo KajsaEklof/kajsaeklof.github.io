@@ -1,13 +1,17 @@
 .blog {
   // h2 {
+  //   font-family: "Poppins";
+  //   font-weight: 900;
   //   font-size: 72px;
   //   background: -webkit-linear-gradient(45deg, $blue, $purple);
   //   -webkit-background-clip: text;
   //   -webkit-text-fill-color: transparent;
   // }
+
   ul {
     list-style: none;
   }
+
   .post {
     &.card {
       display: block;

@@ -76,7 +76,9 @@ export default {
     families: {
       Lato: [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "Work+Sans": [100, 200, 300, 400, 700, 900],
+      Poppins: [400, 700, 800, 900],
     },
+    download: true,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
