@@ -1,7 +1,10 @@
 <template>
   <div class="blog">
     <h2>Notes</h2>
-    <p>Things I learn along the way.</p>
+    <p>
+      Things I learn along the way and me repeating steps of how to do things to
+      myself so I remember them. Tutorials from me to me.
+    </p>
     <ul>
       <li v-for="(post, i) in posts" :key="i">
         <NuxtLink
@@ -20,16 +23,16 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const posts = await $content("posts")
-      .only(["title", "description", "slug", "updatedAt"])
-      .sortBy("createdAt", "desc")
+    const posts = await $content('posts')
+      .only(['title', 'description', 'slug', 'updatedAt'])
+      .sortBy('createdAt', 'desc')
       .fetch();
     return { posts };
   },
   methods: {
     formatDate(date) {
-      const options = { year: "numeric", month: "long", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en', options);
     },
   },
 };

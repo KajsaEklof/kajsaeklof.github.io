@@ -1,29 +1,29 @@
 ---
 title: Let's build a project
-description:
+description: Starting a new project and scaffolding a create-nuxt app.
 ---
 
-# An app for the dogs and their guardians
+## An app for the dogs and their guardians
 
-I am obsessed with my dog Merlin so why not build a project that can be useful when you have a dog. The idea is to build an app where you can have a profile and log things for your dog. Like when they had a vaccination, starting a new type of food or supplement. If they start a new behaviout and you want to track it. It can be anything you want.
+I am obsessed with my dog Merlin so why not build a project that can be useful when you have a dog. The idea is to build an app where you can have a profile and log things for your dog. Like when they had a vaccination, starting a new type of food or supplement. If they start a new behaviour and you want to track it. It can be anything you want.
 
 Maybe like an advanced note app specific for doggos.
 
-## Tech
+### Tech
 
 So what will I be using to build this. Initially I'm planning on using Nuxt.js, Pinia, Supabase and Chakra UI. Mostly because I want to learn them all a bit better.
 
-## Getting started
+### Create Nuxt App
 
-Lets go! Becuase we will use Nuxt we can use Nuxt create-app. [Documentation on setting up a Nuxt project](https://nuxtjs.org/docs/get-started/installation).
+Lets go! Because we will use Nuxt we can use Nuxt create-app. [Documentation on setting up a Nuxt project](https://nuxtjs.org/docs/get-started/installation).
 
-```shell[nuxt.config.js]
+```shell
 ~/projects » yarn create nuxt-app <project-name>
 ```
 
 Nuxt will present a few options to set up your project. This is what I selected.
 
-```shell[nuxt.config.js]
+```shell
 ? Project name: dog-app
 ? Programming language: TypeScript
 ? Package manager: Yarn
@@ -40,7 +40,7 @@ Nuxt will present a few options to set up your project. This is what I selected.
 
 Once the project has been set up we want to cd into the directory
 
-```shell[nuxt.config.js]
+```shell
 ~/projects » cd <project-name>
 ```
 
