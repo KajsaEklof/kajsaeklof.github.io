@@ -1,6 +1,7 @@
 ---
-title: Renaming your main branch on Github
-description: How to rename your main branch on Github using the terminal only
+title: Renaming your base branch on Github
+description: How to rename your base branch on Github using the terminal only
+tags: ['Github']
 ---
 
 ## Master or Main

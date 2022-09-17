@@ -3,18 +3,21 @@
     "name": "notes",
     "path": "/notes",
     "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/notes/index.vue",
-    "chunkName": "pages/notes/index"
+    "chunkName": "pages/notes/index",
+    "_name": "_7a524e86"
   },
   {
     "name": "notes-slug",
     "path": "/notes/:slug",
     "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/notes/_slug.vue",
-    "chunkName": "pages/notes/_slug"
+    "chunkName": "pages/notes/_slug",
+    "_name": "_789bad3e"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_15c7a058"
   }
 ]

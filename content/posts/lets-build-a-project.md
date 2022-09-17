@@ -1,6 +1,7 @@
 ---
 title: Let's build a project
 description: Starting a new project and scaffolding a create-nuxt app.
+tags: ['Chakra UI, Nuxt']
 ---
 
 ## An app for the dogs and their guardians
