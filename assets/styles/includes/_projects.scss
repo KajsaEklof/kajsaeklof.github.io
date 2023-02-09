@@ -1,17 +1,46 @@
 #projects {
   // padding: 4em 0;
 
-  .wrapper {
-    flex-direction: row-reverse;
+  h1 {
+    font-size: 2.5em;
+  }
 
-    .card {
-      width: 50%;
+  .project-card {
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 0px grey;
+    color: #303030;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 3px 3px 10px 0px grey;
     }
 
-    img {
-      width: 30%;
-      position: relative;
-      box-shadow: 17px 17px 0 0 $sand, 17px 17px 0 6px $purple;
+    h3,
+    h2 {
+      margin: 0;
+    }
+
+    &--content {
+      display: flex;
+      .text {
+        width: 80%;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-between;
+      }
+
+      .links {
+        a {
+          margin-right: 1em;
+        }
+      }
+
+      img {
+        width: 30%;
+        position: relative;
+        box-shadow: 17px 17px 0 0 $sand, 17px 17px 0 6px $purple;
+      }
     }
   }
 }

@@ -2,22 +2,29 @@
   {
     "name": "notes",
     "path": "/notes",
-    "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/notes/index.vue",
+    "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/notes/index.vue",
     "chunkName": "pages/notes/index",
-    "_name": "_7a524e86"
+    "_name": "_074eaa6b"
+  },
+  {
+    "name": "projects",
+    "path": "/projects",
+    "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/projects.vue",
+    "chunkName": "pages/projects",
+    "_name": "_4affb6a3"
   },
   {
     "name": "notes-slug",
     "path": "/notes/:slug",
-    "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/notes/_slug.vue",
+    "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/notes/_slug.vue",
     "chunkName": "pages/notes/_slug",
-    "_name": "_789bad3e"
+    "_name": "_05980923"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/kajsaeklof/myRepos/kajsa-protfolio-22/pages/index.vue",
+    "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_15c7a058"
+    "_name": "_1df09b79"
   }
 ]

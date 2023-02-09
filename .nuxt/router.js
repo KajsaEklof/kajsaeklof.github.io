@@ -4,9 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _7a524e86 = () => interopDefault(import('../pages/notes/index.vue' /* webpackChunkName: "pages/notes/index" */))
-const _789bad3e = () => interopDefault(import('../pages/notes/_slug.vue' /* webpackChunkName: "pages/notes/_slug" */))
-const _15c7a058 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _074eaa6b = () => interopDefault(import('../pages/notes/index.vue' /* webpackChunkName: "pages/notes/index" */))
+const _4affb6a3 = () => interopDefault(import('../pages/projects.vue' /* webpackChunkName: "pages/projects" */))
+const _05980923 = () => interopDefault(import('../pages/notes/_slug.vue' /* webpackChunkName: "pages/notes/_slug" */))
+const _1df09b79 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -21,15 +22,19 @@ export const routerOptions = {
 
   routes: [{
     path: "/notes",
-    component: _7a524e86,
+    component: _074eaa6b,
     name: "notes"
   }, {
+    path: "/projects",
+    component: _4affb6a3,
+    name: "projects"
+  }, {
     path: "/notes/:slug",
-    component: _789bad3e,
+    component: _05980923,
     name: "notes-slug"
   }, {
     path: "/",
-    component: _15c7a058,
+    component: _1df09b79,
     name: "index"
   }],
 
