@@ -3,28 +3,24 @@
     "name": "notes",
     "path": "/notes",
     "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/notes/index.vue",
-    "chunkName": "pages/notes/index",
-    "_name": "_074eaa6b"
+    "chunkName": "pages/notes/index"
   },
   {
     "name": "projects",
     "path": "/projects",
     "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/projects.vue",
-    "chunkName": "pages/projects",
-    "_name": "_4affb6a3"
+    "chunkName": "pages/projects"
   },
   {
     "name": "notes-slug",
     "path": "/notes/:slug",
     "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/notes/_slug.vue",
-    "chunkName": "pages/notes/_slug",
-    "_name": "_05980923"
+    "chunkName": "pages/notes/_slug"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/kajsaeklof/projects/kajsa-dev/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_1df09b79"
+    "chunkName": "pages/index"
   }
 ]

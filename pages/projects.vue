@@ -36,9 +36,9 @@
               target="external"
               >Github</a
             >
+            <NuxtLink to="/notes/contrast-checker">Notes</NuxtLink>
           </div>
         </div>
-        <!-- <img src="~/static/images/merlin.jpg" /> -->
       </div>
     </div>
   </div>
