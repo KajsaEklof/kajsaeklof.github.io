@@ -1,0 +1,16 @@
+body {
+  overflow-y: scroll;
+}
+
+.content {
+  padding: 0 3rem 3rem;
+}
+
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  // flex-flow: row-reverse;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem;
+}

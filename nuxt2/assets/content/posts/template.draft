@@ -1,0 +1,10 @@
+---
+title: Title
+description: description
+---
+
+```js[nuxt.config.js]
+export default {
+  nuxt: "is the best"
+}
+```
