@@ -32,13 +32,8 @@ export default defineNuxtConfig({
     download: true,
   },
   content: {
-    markdown: {
-      prism: {
-        theme: "prism-themes/themes/prism-material-oceanic.css",
-      },
-      tags: {
-        p: true,
-      },
+    highlight: {
+      theme: 'dark-plus',
     },
   },
 })

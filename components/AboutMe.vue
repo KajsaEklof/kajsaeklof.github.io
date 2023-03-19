@@ -24,7 +24,7 @@
             href="https://www.hb.se/en/the-swedish-school-of-library-and-information-science-sslis/"
             title="The Swedish School of Library and Information Science"
             target="_blank"
-            rel="exernal nofollow noreferrer"
+            rel="external nofollow noreferrer"
             >The Swedish School of Library and Information Science
           </a>
           (SSLIS) at the University of Borås.

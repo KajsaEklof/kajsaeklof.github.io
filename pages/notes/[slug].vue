@@ -1,13 +1,8 @@
 <script setup>
 const { path } = useRoute();
 const { data: article } = await useAsyncData(path, () =>
-  queryContent("notes").where({ _path: path }).findOne()
+  queryContent('notes').where({ _path: path }).findOne()
 );
-
-function formatDate(date) {
-  const options = { year: "numeric", month: "long", day: "numeric" };
-  return new Date(date).toLocaleDateString("en", options);
-}
 </script>
 
 <template>
@@ -26,9 +21,8 @@ function formatDate(date) {
         </li>
       </ul>
     </nav>
-    <ContentRenderer :value="article"> </ContentRenderer>
-
+    <ContentRenderer :value="article" />
     <hr />
-    <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
+    <p>Post last updated: {{ formatDate(article.date) }}</p>
   </article>
 </template>

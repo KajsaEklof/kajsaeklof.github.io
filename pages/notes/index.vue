@@ -16,7 +16,7 @@
         >
           <h3 class="title">{{ note.title }}</h3>
           <p class="description">{{ note.description }}</p>
-          <!-- <p class="updated-at">{{ formatDate(note.updatedAt) }}</p> -->
+          <p class="updated-at">{{ formatDate(note.date) }}</p>
         </NuxtLink>
       </li>
     </ul>
@@ -24,32 +24,11 @@
 </template>
 
 <script lang="ts" setup>
-// export default {
-//   async asyncData({ $content, params }) {
-//     const posts = await $content('posts')
-//       .only(['title', 'description', 'slug', 'updatedAt'])
-//       .sortBy('createdAt', 'desc')
-//       .fetch();
-//     return { posts };
-//   },
-//   methods: {
-//     formatDate(date) {
-//       const options = { year: 'numeric', month: 'long', day: 'numeric' };
-//       return new Date(date).toLocaleDateString('en', options);
-//     },
-//   },
-// };
-// const { data } = await useAsyncData("home", () => queryContent("/").findOne());
-
-const { data: notes } = await useAsyncData("posts", () =>
-  queryContent("notes")
-    .only(["title", "description", "slug", "_path", "updatedAt"])
-    .without("body")
+const { data: notes } = await useAsyncData('posts', () =>
+  queryContent('notes')
+    .only(['title', 'description', '_path', 'date'])
+    .without('body')
+    .sort({ date: -1 })
     .find()
 );
-
-// function formatDate(date) {
-//   const options = { year: "numeric", month: "long", day: "numeric" };
-//   return new Date(date).toLocaleDateString("en", options);
-// }
 </script>

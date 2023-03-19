@@ -2,6 +2,7 @@
 title: Renaming your base branch on Github
 description: How to rename your base branch on Github using the terminal only
 tags: ["Github"]
+date: 01.10.2023
 ---
 
 ## Master or Main

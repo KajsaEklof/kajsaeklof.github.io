@@ -2,6 +2,7 @@
 title: Add Supabase to Nuxt project
 description: Add Supabase to your Nuxt 2 project
 tags: ["Supabase, Nuxt"]
+date: 02.01.2023
 ---
 
 ## Add Supabase to your Nuxt project
@@ -51,7 +52,7 @@ import { provide } from "vue";
 
 And then in the `setup` function we want to add a provide and pass in our supabase client from the import.
 
-´´´js [default.vue]
+´´´ts [default.vue]
 setup() {
 provide('supabase', supabase)
 },

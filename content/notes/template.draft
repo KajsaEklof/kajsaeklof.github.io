@@ -1,6 +1,7 @@
 ---
 title: Title
 description: description
+date: MM.DD.YYYY
 ---
 
 ```js[nuxt.config.js]

@@ -2,6 +2,7 @@
 title: Refactor setup function to setup script tag
 description: Refactor a small component from setup function to script setup tag syntax.
 tags: ["Vue, Composition API", "Vue 3"]
+date: 01.20.2023
 ---
 
 ## What is the script setup tag

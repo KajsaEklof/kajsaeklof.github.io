@@ -2,6 +2,7 @@
 title: Using Nuxt Bridge with Nuxt 2
 description: How to add Nuxt Bridge to your Nuxt 2 project
 tags: ["Composition API", "Vue 3", "Nuxt 3", "Nuxt Bridge"]
+date: 02.01.2023
 ---
 
 ## What is Nuxt Bridge
@@ -33,7 +34,7 @@ Next up is installing `@nuxt/bridge-edge`
 
 We now need to update the dev, build and start scripts in `package.json` to use `nuxi` that is introduced by Nuxt 3. Best to follow [the guide](https://v3.nuxtjs.org/bridge/overview#nuxi) for this one as the scripts might vary depending on your `target` in `nuxt.config.js`
 
-```
+```json
 "scripts": {
 -   "dev": "nuxt",
 +   "dev": "nuxi dev",

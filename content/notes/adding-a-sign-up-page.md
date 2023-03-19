@@ -1,7 +1,8 @@
 ---
 title: Building a sign up page with Chakra UI
 description: How to build a form for users to sign up and sign in to your app with Chakra UI
-tags: ["Chakra UI"]
+tags: ['Chakra UI']
+date: 02.11.2023
 ---
 
 The first thing we need for our app is a way for users to sign up. So we're going to add a sign up page as well as a sign in page (for returning users).
@@ -12,7 +13,7 @@ We need to new pages so go ahead and create `sign-up.vue` and `sign-in.vue` in y
 
 The scaffolding of both components will look something like the below.
 
-```js[sign-up.vue]
+```ts[sign-up.vue]
 <template>
  // This is where the HTML for the sign up form will go
 </template>

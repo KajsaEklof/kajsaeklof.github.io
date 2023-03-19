@@ -2,6 +2,7 @@
 title: "Project: Colour Contrast Checker"
 description: Check the colour contrast for your apps theme colours using the WebAIM API.
 tags: ["WCAG", "API", "WebAIM", "Colour Contrast", "Vue 3"]
+date: 02.11.2023
 ---
 
 ## Building a theme colour contrast checker
@@ -12,7 +13,7 @@ I often use the [WebAIM](https://webaim.org/resources/contrastchecker/) colour c
 
 The idea for this project came when I read that the WebAIM checker is also an API. Amazing, I know. It's used by including a foreground and background hex colour code with out the `#` in the URL and appending `&api` at the end. For example:
 
-```js
+```ts
 https://webaim.org/resources/contrastchecker/?fcolor=ffffff&bcolor=000000&api
 ```
 
