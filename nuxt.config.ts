@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    '@nuxt/content', '@nuxtjs/google-fonts'
+    '@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-icon'
   ],
   css: [
     // SCSS file in the project
