@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-  padding: 0 3rem 3rem;
+  padding: 0 3rem;
 }
 
 .layout-wrapper {
@@ -13,4 +13,51 @@ body {
   // flex-wrap: wrap;
   justify-content: space-between;
   margin: 2rem;
+}
+
+.footer {
+  text-align: center;
+
+  .contact-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+
+    li {
+      padding: 0 2em 0 0;
+      margin: 0 0 1em 0;
+
+      a:not(.post.card) {
+        color: $blue;
+        // font-weight: 700;
+        text-decoration: none;
+        padding: 0 0 3px 0;
+
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 3px;
+        transition: all 0.4s ease-out;
+        -webkit-transition: all 0.4s ease-out;
+
+        svg {
+          &.icon {
+            margin-bottom: 2px;
+          }
+        }
+
+        &:hover {
+          color: $blue;
+          background-size: 100% 3px;
+          transform: scale(2);
+        }
+      }
+    }
+  }
+
+  ::selection {
+    background: $yellow; /* WebKit/Blink Browsers */
+  }
 }
