@@ -21,7 +21,7 @@
     color: $grey;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       width: 0;
       height: 3px;
@@ -43,7 +43,7 @@
   .nuxt-link-exact-active:not(.logo) {
     color: $blue;
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       height: 3px;
       display: block;

@@ -1,6 +1,8 @@
 <template>
   <div>
     <AboutMe />
-    <ContactMe />
+    <section id="contact">
+      <h2>contact</h2>
+    </section>
   </div>
 </template>
