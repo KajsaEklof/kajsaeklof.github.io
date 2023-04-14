@@ -41,15 +41,16 @@ body {
     align-items: flex-end;
     background-color: #fff;
     height: 100vh;
-    padding: 2.5em 2.7em 0 0;
+    padding-top: 2.5em;
     background-color: rgb(132, 104, 158, 0.7);
     // background-color: rgb(1, 114, 162, 0.7);
     backdrop-filter: blur(3px);
-    width: calc(100% + 2em);
+    width: calc(100% + 4em);
 
     .burger-menu--close {
       // padding-right: 1em;
       margin-top: 0.5em;
+      padding-right: 2.7em;
       width: fit-content;
     }
 

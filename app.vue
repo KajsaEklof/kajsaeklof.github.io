@@ -5,11 +5,8 @@ const isLargeScreen = useMediaQuery('(min-width: 1024px)');
 
 watch(isLargeScreen, (isLarge) => {
   const body = document.querySelector('body');
-  if (!isLarge) {
-    body?.classList.add('hide-overflow');
-  } else {
-    body?.classList.remove('hide-overflow');
-  }
+
+  body?.classList.remove('hide-overflow');
 });
 </script>
 
