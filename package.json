@@ -8,25 +8,24 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.4.3",
-    "@nuxt/types": "^2.16.0",
-    "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@typescript-eslint/parser": "^5.55.0",
-    "@vueuse/core": "^10.0.2",
-    "@vueuse/nuxt": "^10.0.2",
-    "eslint": "^8.36.0",
-    "eslint-config-prettier": "^8.7.0",
+    "@nuxt/content": "^2.12.1",
+    "@nuxt/types": "^2.17.3",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vueuse/core": "^10.10.0",
+    "@vueuse/nuxt": "^10.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.9.0",
-    "nuxt": "^3.1.2",
+    "eslint-plugin-vue": "^9.26.0",
+    "nuxt": "^3.11.2",
     "nuxt-icon": "^0.3.3",
-    "prettier": "^2.8.4",
-    "sass": "^1.58.0",
-    "sass-loader": "^13.2.0",
-    "typescript": "^5.0.2"
+    "prettier": "^2.8.8",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@nuxtjs/google-fonts": "^3.0.0"
+    "@nuxtjs/google-fonts": "^3.2.0"
   }
 }
