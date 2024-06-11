@@ -4,22 +4,31 @@ export default defineNuxtConfig({
     head: {
       title: "Kajsa Eklöf's personal website",
       htmlAttrs: {
-        lang: "en",
+        lang: 'en',
       },
       meta: [
-        { charset: "utf-8" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "Kajsa Eklof, front-end web developer and information architect." },
-        { name: "format-detection", content: "telephone=no" },
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Kajsa Eklof, front-end web developer and information architect.',
+        },
+        { name: 'format-detection', content: 'telephone=no' },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
-
+      link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
     },
   },
-  modules: ['@nuxt/content', '@nuxtjs/google-fonts', 'nuxt-icon', '@vueuse/nuxt'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/google-fonts',
+    'nuxt-icon',
+    '@vueuse/nuxt',
+  ],
   css: [
     // SCSS file in the project
-    "~/assets/styles/main.scss",
+    '~/assets/styles/main.scss',
   ],
   googleFonts: {
     families: {
@@ -34,4 +43,4 @@ export default defineNuxtConfig({
       theme: 'dark-plus',
     },
   },
-})
+});
