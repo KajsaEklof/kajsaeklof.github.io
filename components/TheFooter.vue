@@ -46,16 +46,6 @@
           Twitter
         </a>
       </li>
-      <li>
-        <a
-          href="https://www.polywork.com/kajsa"
-          target="_blank"
-          rel="noreferrer nofollow external"
-          title="Polywork"
-        >
-          Polywork</a
-        >
-      </li>
     </ul>
   </footer>
 </template>
