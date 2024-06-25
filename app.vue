@@ -18,7 +18,7 @@ watch(isLargeScreen, (isLarge) => {
 
 onMounted(() => {
   if (isLargeScreen.value) {
-    showMobileMenu.value = true;
+    showMobileMenu.value = false;
   }
 });
 </script>
@@ -27,9 +27,9 @@ onMounted(() => {
   <div class="layout-wrapper">
     <TheMobileNavigation v-if="showMobileMenu" />
     <TheNavigation v-else />
-    <main :class="['content', { mobile: !showMobileMenu }]">
+    <main :class="['content', { mobile: showMobileMenu }]">
       <NuxtPage />
     </main>
-    <TheFooter :class="{ mobile: !isLargeScreen }" />
+    <TheFooter :class="{ mobile: showMobileMenu }" />
   </div>
 </template>
