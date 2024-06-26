@@ -3,12 +3,12 @@
     <div class="image-wrapper">
       <img src="/images/kajsa.jpg" />
       <h1>Kajsa Eklöf</h1>
-      <h2>Web Developer</h2>
+      <h2>Front-end Software Engineer </h2>
     </div>
     <div class="wrapper">
       <div class="blurb">
         <p>
-          Hi! I’m Kajsa [💬 k-ay-s-uh], a front-end web developer based in the
+          Hi! I’m Kajsa [💬 k-ay-s-uh], a Front-end Software Engineer based in the
           UK. I love problem solving, learning new things and building beautiful
           and usable web apps.
         </p>
@@ -31,13 +31,14 @@
         </p>
 
         <h2 id="tech">tech</h2>
-        <p>And in no particular order here is the tech I enjoy working with:</p>
+        <p>And in no particular order some tech I enjoy working with:</p>
         <ul>
           <li>JavaScript (ES6)</li>
           <li>TypeScript</li>
           <li>Vue.js</li>
           <li>Nuxt.js</li>
           <li>Node.js</li>
+          <li>Go</li>
           <li>HTML5</li>
           <li>CSS</li>
           <li>SCSS</li>
