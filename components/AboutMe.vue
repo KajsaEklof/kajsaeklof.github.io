@@ -13,7 +13,7 @@
           and usable web apps.
         </p>
         <p>
-          I’m currently working at Comnoco building a no-code SaaS platform
+          I’m currently working at <a href="http://comnoco.io/" target="external">Comnoco</a> building a no-code SaaS platform
           using Vue and TypeScript.
         </p>
         <p>
