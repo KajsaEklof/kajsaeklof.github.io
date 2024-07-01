@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Kajsa Eklöf's personal website",
+      title: "Kajsa Eklöf - Full stack developer",
       htmlAttrs: {
         lang: 'en',
       },
@@ -13,7 +13,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Kajsa Eklof, front-end web developer and information architect.',
+            'Kajsa Eklof, full stack developer and information architect.',
         },
         { name: 'format-detection', content: 'telephone=no' },
       ],

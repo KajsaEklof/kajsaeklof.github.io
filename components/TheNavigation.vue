@@ -13,9 +13,9 @@
     </NuxtLink>
     <nav>
       <ul>
-        <li>
+        <!-- <li>
           <NuxtLink to="/#tech">tech</NuxtLink>
-        </li>
+        </li> -->
         <li>
           <NuxtLink to="/notes">notes</NuxtLink>
         </li>

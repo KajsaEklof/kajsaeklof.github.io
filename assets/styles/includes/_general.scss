@@ -72,9 +72,9 @@ p {
 
 .content {
   section {
-    &:not(:last-child) {
-      min-height: 100vh;
-    }
+    // &:not(:last-child) {
+      // min-height: 100vh;
+    // }
 
     &:not(:first-child) {
       padding: 2em 0 0;

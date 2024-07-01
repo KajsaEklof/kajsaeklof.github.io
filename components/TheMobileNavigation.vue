@@ -11,9 +11,9 @@
       </button>
       <nav>
         <ul>
-          <li>
+          <!-- <li>
             <NuxtLink to="/#tech" @click="toggleMenu">tech</NuxtLink>
-          </li>
+          </li> -->
           <li>
             <NuxtLink to="/notes" @click="toggleMenu">notes</NuxtLink>
           </li>
